@@ -14,7 +14,7 @@ char *DUCO_USER = "XXXXXXXXXX";
 char *MINER_KEY = "XXXXXXXXXX";
 
 // Miner name.
-char *RIG_IDENTIFIER = "ESP32C3_Custom";
+char *RIG_IDENTIFIER = "ESP32C3 Custom";
 
 // WiFi network
 const char SSID[] = "XXXXXXXXXX";
@@ -29,7 +29,7 @@ const char PASSWORD[] = "XXXXXXXXXX";
 
 // Serial output.
 // Comment this line out for a slightly leaner/quiet build.
-#define SERIAL_PRINTING
+// #define SERIAL_PRINTING
 
 // Serial speed
 #define SERIAL_BAUDRATE 115200

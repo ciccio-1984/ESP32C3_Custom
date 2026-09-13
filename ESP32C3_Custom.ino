@@ -174,9 +174,9 @@ void SetupWifi() {
 
 WiFi.mode(WIFI_STA);
 
-// Disable WiFi power saving.
+// Enable WiFi power saving.
 // This is preferable for a continuously running miner.
-WiFi.setSleep(false);
+WiFi.setSleep(true);
 
 WiFi.begin(SSID, PASSWORD);
 
@@ -238,10 +238,11 @@ configuration = new MiningConfig(
 // Create the single mining job.
 job = new MiningJob(0, configuration);
 
-SetupWifi();
-
 // CPU at maximum frequency.
 setCpuFrequencyMhz(160);
+
+SetupWifi();
+
 
 // Startup indication.
 job->blink(BLINK_SETUP_COMPLETE);
