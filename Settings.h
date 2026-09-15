@@ -11,7 +11,7 @@
 char *DUCO_USER = "XXXXXXXXXX";
 
 // Mining key
-char *MINER_KEY = "XXXXXXXXXX";
+char *MINER_KEY = "XXXXXXXXX";
 
 // Miner name.
 char *RIG_IDENTIFIER = "ESP32C3 Custom";

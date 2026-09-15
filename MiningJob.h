@@ -1,5 +1,6 @@
 #pragma GCC optimize("-O2")
 
+
 #ifndef MINING_JOB_H
 #define MINING_JOB_H
 
@@ -7,6 +8,7 @@
 #include <assert.h>
 #include <string.h>
 #include <WiFiClient.h>
+#include "esp32-hal.h"
 
 #include "DSHA1.h"
 #include "Counter.h"
@@ -189,7 +191,11 @@ void mine() {
 
             break;
         }
+
+        
     }
+
+    yield();
 }
 
 private:
