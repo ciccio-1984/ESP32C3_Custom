@@ -1,3 +1,7 @@
+/* Modified by Mirko Corazzesi aka ciccio-1984 - 2026
+ * Original code by Duino-Coin Team - 2021
+*/
+
 #pragma GCC optimize("-O2")
 
 #include <Arduino.h>
